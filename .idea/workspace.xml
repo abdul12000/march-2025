@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Testrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Testrunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +22,10 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,6 +106,8 @@
         <item itemvalue="JUnit.Testrunner" />
         <item itemvalue="JUnit.Main.main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Testrunner" />
+        <item itemvalue="JUnit.Main.main" />
       </list>
     </recent_temporary>
   </component>
