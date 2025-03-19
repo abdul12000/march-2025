@@ -1,0 +1,66 @@
+Index: src/test/java/stepDefinitions/Testrunner.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package stepDefinitions;\r\n\r\nimport io.cucumber.junit.Cucumber;\r\nimport io.cucumber.junit.CucumberOptions;\r\nimport org.junit.runner.RunWith;\r\n\r\n@RunWith(Cucumber.class)\r\n@CucumberOptions(features = \"src/main/resources/feature_files\",  monochrome = true,\r\n        plugin = {      \"pretty\",\r\n                \"html:target/cucumber.html\",\r\n                \"json:target/cucumber/cucumber-report.json\",\r\n                \"junit:target/cucumber.xml\"\r\n        }, tags=\"@TesttorunNext1\")\r\n\r\npublic class Testrunner {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/stepDefinitions/Testrunner.java b/src/test/java/stepDefinitions/Testrunner.java
+--- a/src/test/java/stepDefinitions/Testrunner.java	(revision 48ba2c260bbf7cb684af2219793e5a7c56331823)
++++ b/src/test/java/stepDefinitions/Testrunner.java	(date 1742421003782)
+@@ -10,7 +10,7 @@
+                 "html:target/cucumber.html",
+                 "json:target/cucumber/cucumber-report.json",
+                 "junit:target/cucumber.xml"
+-        }, tags="@TesttorunNext1")
++        }, tags="@TesttorunNext")
+ 
+ public class Testrunner {
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cf8dd2f6-7b3d-4010-a2e5-932f0b82139d\" name=\"Changes\" comment=\"first commit\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/stepDefinitions/Testrunner.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/stepDefinitions/Testrunner.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"importingSettings\">\r\n      <MavenImportingSettings>\r\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\r\n      </MavenImportingSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2uSWr2wHDrlPLIuS2Z6GK35ffVE\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"JUnit.Testrunner\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <module name=\"march-2025\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main.main\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"march-2025\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"org.example\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <option name=\"METHOD_NAME\" value=\"main\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Testrunner\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"march-2025\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"stepDefinitions.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"stepDefinitions\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"stepDefinitions.Testrunner\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.Testrunner\" />\r\n        <item itemvalue=\"JUnit.Main.main\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cf8dd2f6-7b3d-4010-a2e5-932f0b82139d\" name=\"Changes\" comment=\"\" />\r\n      <created>1742242654908</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1742242654908</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\r\n      <created>1742378277851</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1742378277851</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first commit\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java</url>\r\n          <line>94</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 48ba2c260bbf7cb684af2219793e5a7c56331823)
++++ b/.idea/workspace.xml	(date 1742420814420)
+@@ -4,12 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="cf8dd2f6-7b3d-4010-a2e5-932f0b82139d" name="Changes" comment="first commit">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Testrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Testrunner.java" afterDir="false" />
+-    </list>
++    <list default="true" id="cf8dd2f6-7b3d-4010-a2e5-932f0b82139d" name="Changes" comment="Adding Lesson22 code" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -125,12 +120,20 @@
+       <option name="project" value="LOCAL" />
+       <updated>1742378277851</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Adding Lesson22 code">
++      <created>1742420740708</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1742420740708</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="first commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
++    <MESSAGE value="Adding Lesson22 code" />
++    <option name="LAST_COMMIT_MESSAGE" value="Adding Lesson22 code" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>

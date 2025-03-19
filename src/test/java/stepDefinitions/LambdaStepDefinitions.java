@@ -122,6 +122,5 @@ driver.findElement(By.xpath("//label[@for='input-agree']")).click();
 
 
     }
-    public void testMethod(){}
 
 }
