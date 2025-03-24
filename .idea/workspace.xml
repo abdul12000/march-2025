@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf8dd2f6-7b3d-4010-a2e5-932f0b82139d" name="Changes" comment="first commit">
+    <list default="true" id="cf8dd2f6-7b3d-4010-a2e5-932f0b82139d" name="Changes" comment="removing unwanted code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Testrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Testrunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,20 +128,36 @@
       <option name="project" value="LOCAL" />
       <updated>1742378277851</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Lesson22 code added">
+      <created>1742421344986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742421344986</updated>
+    </task>
+    <task id="LOCAL-00003" summary="removing unwanted code">
+      <created>1742421508439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742421508439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Adding Lesson22 code added" />
+    <MESSAGE value="removing unwanted code" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing unwanted code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="3" />
+          <line>147</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

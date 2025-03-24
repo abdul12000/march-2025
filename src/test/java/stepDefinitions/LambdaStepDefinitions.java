@@ -2,6 +2,7 @@ package stepDefinitions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -15,6 +16,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -123,4 +126,43 @@ driver.findElement(By.xpath("//label[@for='input-agree']")).click();
 
     }
 
+    @And("enter {string}, {string}, {string}, {string} and {string}")
+    public void enterAnd(String fName, String LName, String eMail, String phoneNumber, String pWord) {
+        driver.findElement(By.id("input-firstname")).sendKeys(fName);
+        driver.findElement(By.id("input-lastname")).sendKeys(LName);
+        driver.findElement(By.id("input-email")).sendKeys(randonNumber()+eMail);
+        driver.findElement(By.id("input-telephone")).sendKeys(phoneNumber);
+        driver.findElement(By.id("input-password")).sendKeys(pWord);
+        driver.findElement(By.id("input-confirm")).sendKeys(pWord);
+    }
+
+    @And("enter details as follows")
+//    public void enterDetailsAsFollows(List<List<String>> dataTable) {
+//        driver.findElement(By.id("input-firstname")).sendKeys(dataTable.get(1).get(1));
+//        driver.findElement(By.id("input-lastname")).sendKeys(dataTable.get(2).get(1));
+//        driver.findElement(By.id("input-email")).sendKeys(randonNumber()+dataTable.get(3).get(1));
+//        driver.findElement(By.id("input-telephone")).sendKeys(dataTable.get(4).get(1));
+//        driver.findElement(By.id("input-password")).sendKeys(dataTable.get(5).get(1));
+//        driver.findElement(By.id("input-confirm")).sendKeys(dataTable.get(5).get(1));
+
+    public void enterDetailsAsFollows(Map<String, String> dataTable) {
+//        driver.findElement(By.id("input-firstname")).sendKeys(dataTable.get(1));
+//        driver.findElement(By.id("input-lastname")).sendKeys(dataTable.get(2).get(1));
+//        driver.findElement(By.id("input-email")).sendKeys(randonNumber()+dataTable.get(3).get(1));
+//        driver.findElement(By.id("input-telephone")).sendKeys(dataTable.get(4).get(1));
+//        driver.findElement(By.id("input-password")).sendKeys(dataTable.get(5).get(1));
+//        driver.findElement(By.id("input-confirm")).sendKeys(dataTable.get(5).get(1));
+
+
+    }
+
+    @And("enter the following details")
+    public void enterTheFollowingDetails(List<String> dataTable) {
+        driver.findElement(By.id("input-firstname")).sendKeys(dataTable.get(1));
+        driver.findElement(By.id("input-lastname")).sendKeys(dataTable.get(2));
+        driver.findElement(By.id("input-email")).sendKeys(randonNumber()+dataTable.get(3));
+        driver.findElement(By.id("input-telephone")).sendKeys(dataTable.get(4));
+        driver.findElement(By.id("input-password")).sendKeys(dataTable.get(5));
+        driver.findElement(By.id("input-confirm")).sendKeys(dataTable.get(5));
+    }
 }
