@@ -6,14 +6,12 @@ Feature: register an account
 
   @TesttorunNext
   Scenario: Register page is displayed when you click on Register link
-#         Given I am on the Lambdatest home page "https://ecommerce-playground.lambdatest.io/"
     When I click on Register link from the MyAccount Menu
     Then the Register Account page is displayed
 
 
   @TesttorunNext1
   Scenario: Register an account
-#    Given I am on the Lambdatest home page "https://ecommerce-playground.lambdatest.io/"
     When I click on Register link from the MyAccount Menu
     And enter First Name as "Lateef", Last Name as "Abdul", email as "abdul1@email.com", telephone as "07484848585" and password as "123456"
     And I click on the privacy policy
@@ -35,7 +33,7 @@ Feature: register an account
       | Grace     | Muhammad | muhammad@tt.com | 0784848848  | 123456   |
 
 
-  @TesttorunNext13
+  @TesttorunNext556
   Scenario: Register accounts using scenario outline and examples
     When I click on Register link from the MyAccount Menu
     And enter details as follows
@@ -50,11 +48,11 @@ Feature: register an account
     Then "Your Account Has Been Created!" is displayed
 
 
-  @TesttorunNext14
+  @TesttorunNext
   Scenario: Register accounts using scenario outline and examples
     When I click on Register link from the MyAccount Menu
     And enter the following details
-      | Names           |
+      | Names            |
       | Esther           |
       | Adefir           |
       | esther@email.com |
@@ -64,3 +62,25 @@ Feature: register an account
     And I click on the privacy policy
     And I click on Continue button on the register account page
     Then "Your Account Has Been Created!" is displayed
+
+  @TesttorunNext233
+  Scenario: Register page is displayed when you click on Register link via hovering on My Account menu
+    When I click on Register link after hovering on My account menu
+    Then the Register Account page is displayed
+
+
+
+
+  @TesttorunNext5567
+  Scenario Outline: Register accounts using scenario outline and examples - using PageObject model
+    When I click on my account link
+    And I click on Continue on the login page
+    And enter "<firstName>", "<lastName>", "<email>", "<telephone>" and "<password>" using page object
+    And I click on the privacy policy using page object
+    And I click on Continue button on the register account page using page object
+    Then "Your Account Has Been Created!" is displayed
+    Examples:
+      | firstName | lastName | email           | telephone   | password |
+      | Lateef    | Abdulsa  | abdul@tt.com    | 078484848   | 123456   |
+#      | Godwin    | Igoh     | igoh@tt.com     | 07848949948 | 123456   |
+#      | Grace     | Muhammad | muhammad@tt.com | 0784848848  | 123456   |

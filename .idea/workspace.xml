@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf8dd2f6-7b3d-4010-a2e5-932f0b82139d" name="Changes" comment="removing unwanted code">
+    <list default="true" id="cf8dd2f6-7b3d-4010-a2e5-932f0b82139d" name="Changes" comment="Lesson23 code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Accountsuccesspage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Homepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Loginpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Registerpage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feature_files/Lambda.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java" afterDir="false" />
@@ -57,6 +61,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Pages" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.Testrunner">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -142,22 +151,39 @@
       <option name="project" value="LOCAL" />
       <updated>1742421508439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson23 code">
+      <created>1742858188568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742858188568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Adding Lesson22 code added" />
     <MESSAGE value="removing unwanted code" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing unwanted code" />
+    <MESSAGE value="Lesson23 code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson23 code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Pages/Registerpage.java</url>
+          <line>44</line>
+          <properties class="Pages.Registerpage" method="clickOnPrivacyButton">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/LambdaStepDefinitions.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/Pages/Homepage.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
